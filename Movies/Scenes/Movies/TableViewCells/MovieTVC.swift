@@ -15,7 +15,21 @@ class MovieTVC: UITableViewCell {
     @IBOutlet weak var overviewL: UILabel!
     @IBOutlet weak var productionYearL: UILabel!
     @IBOutlet weak var rateL: UILabel!
+    @IBOutlet weak var loadingV: UIView!
+    @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
     
+    var imageUrlString: String?
     
+    func setupForLoading() {
+        imageUrlString = nil
+        tittleL.text = "Loading..."
+        loadingV.isHidden = false
+        loadingIndicator.startAnimating()
+    }
+    
+    func reset() {
+        posterIV.image = nil
+        loadingV.isHidden = true
+    }
     
 }
