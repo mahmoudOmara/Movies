@@ -15,6 +15,12 @@ extension MoviesVC: UITableViewDelegate {
                 ["My Movies", "All Movies"][section] :
                 "All Movies"
     }
+    
+    func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+        view.tintColor = UIColor.white
+        view.borderColor = UIColor.black
+        view.borderWidth = 1.0
+    }
 }
 
 extension MoviesVC: UITableViewDataSource {

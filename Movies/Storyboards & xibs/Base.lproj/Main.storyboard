@@ -98,10 +98,13 @@
                                                         <rect key="frame" x="15" y="20" width="315" height="17"/>
                                                         <color key="textColor" red="0.36862745099999999" green="0.36862745099999999" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="Quicksand-Medium" family="Quicksand" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardAppearance="alert"/>
                                                         <variation key="heightClass=regular-widthClass=regular">
                                                             <fontDescription key="fontDescription" name="Quicksand-Medium" family="Quicksand" pointSize="23"/>
                                                         </variation>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="bha-M5-shQ" id="k3t-ee-om9"/>
+                                                        </connections>
                                                     </textField>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="divid" translatesAutoresizingMaskIntoConstraints="NO" id="eHa-Vg-K3F">
                                                         <rect key="frame" x="0.0" y="47" width="345" height="1"/>
@@ -116,7 +119,7 @@
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardAppearance="alert"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="string" keyPath="placeHolder" value="Overview"/>
                                                         </userDefinedRuntimeAttributes>
@@ -133,10 +136,13 @@
                                                         <rect key="frame" x="15" y="112" width="315" height="17"/>
                                                         <color key="textColor" red="0.36862745099999999" green="0.36862745099999999" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="Quicksand-Medium" family="Quicksand" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" keyboardAppearance="alert"/>
                                                         <variation key="heightClass=regular-widthClass=regular">
                                                             <fontDescription key="fontDescription" name="Quicksand-Medium" family="Quicksand" pointSize="23"/>
                                                         </variation>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="bha-M5-shQ" id="kOA-mD-gIx"/>
+                                                        </connections>
                                                     </textField>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="divid" translatesAutoresizingMaskIntoConstraints="NO" id="dvP-cN-xua">
                                                         <rect key="frame" x="0.0" y="139" width="345" height="1"/>
@@ -150,10 +156,13 @@
                                                         <rect key="frame" x="15" y="150" width="315" height="17"/>
                                                         <color key="textColor" red="0.36862745099999999" green="0.36862745099999999" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="Quicksand-Medium" family="Quicksand" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" keyboardAppearance="alert"/>
                                                         <variation key="heightClass=regular-widthClass=regular">
                                                             <fontDescription key="fontDescription" name="Quicksand-Medium" family="Quicksand" pointSize="23"/>
                                                         </variation>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="bha-M5-shQ" id="BSa-my-zq8"/>
+                                                        </connections>
                                                     </textField>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="divid" translatesAutoresizingMaskIntoConstraints="NO" id="l9J-Ia-XIG">
                                                         <rect key="frame" x="0.0" y="177" width="345" height="1"/>

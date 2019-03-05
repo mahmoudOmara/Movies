@@ -12,7 +12,7 @@ class AddMovieVC: UIViewController {
 
     
     @IBOutlet weak var titleTF: UITextField!
-    @IBOutlet weak var overViewTV: UITextView!
+    @IBOutlet weak var overViewTV: PlaceHolderTextView!
     @IBOutlet weak var rateTF: UITextField!
     @IBOutlet weak var productionYearTF: UITextField!
     @IBOutlet weak var addImageBtn: ImagePickerButton!
@@ -27,8 +27,22 @@ class AddMovieVC: UIViewController {
         // Do any additional setup after loading the view.
         presenter?.viewDidLoad()
         setupNavigationBar()
+        setupKeyboardDismissRecognizer()
         
         addImageBtn.delegate = self
+    }
+    
+    private func setupKeyboardDismissRecognizer(){
+        let tapRecognizer: UITapGestureRecognizer = UITapGestureRecognizer(
+            target: self,
+            action: #selector(dismissKeyboard))
+        
+        self.view.addGestureRecognizer(tapRecognizer)
+    }
+    
+    @objc func dismissKeyboard()
+    {
+        view.endEditing(true)
     }
     
     private func setupNavigationBar() {

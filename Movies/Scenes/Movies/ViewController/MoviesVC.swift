@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MoviesVC.swift
 //  Movies
 //
 //  Created by Mahmoud Omara on 3/2/19.

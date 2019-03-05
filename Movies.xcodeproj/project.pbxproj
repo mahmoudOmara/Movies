@@ -32,6 +32,8 @@
 		26F1C191222DD020006E66BF /* AddMovieVC+ImagePickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F1C190222DD020006E66BF /* AddMovieVC+ImagePickerDelegate.swift */; };
 		26F1C193222DD883006E66BF /* PlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F1C192222DD883006E66BF /* PlaceHolderTextView.swift */; };
 		26F1C199222DF1CD006E66BF /* OfflineMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F1C198222DF1CD006E66BF /* OfflineMovie.swift */; };
+		26F1C19E222ECC11006E66BF /* AddMovieVC+TextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F1C19D222ECC11006E66BF /* AddMovieVC+TextFieldDelegate.swift */; };
+		26F1C1A1222ED8FC006E66BF /* UIView+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F1C1A0222ED8FC006E66BF /* UIView+Border.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,8 @@
 		26F1C190222DD020006E66BF /* AddMovieVC+ImagePickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddMovieVC+ImagePickerDelegate.swift"; sourceTree = "<group>"; };
 		26F1C192222DD883006E66BF /* PlaceHolderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceHolderTextView.swift; sourceTree = "<group>"; };
 		26F1C198222DF1CD006E66BF /* OfflineMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineMovie.swift; sourceTree = "<group>"; };
+		26F1C19D222ECC11006E66BF /* AddMovieVC+TextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddMovieVC+TextFieldDelegate.swift"; sourceTree = "<group>"; };
+		26F1C1A0222ED8FC006E66BF /* UIView+Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Border.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		268428DE222AE94500F7A1C0 /* Movies */ = {
 			isa = PBXGroup;
 			children = (
+				26F1C19F222ED8D9006E66BF /* Extensions */,
 				268428FA222AF34900F7A1C0 /* Scenes */,
 				268428F9222AF34100F7A1C0 /* Core */,
 				268428F8222AF33700F7A1C0 /* Resources */,
@@ -221,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				26842926222DA9F900F7A1C0 /* AddMovieVC.swift */,
+				26F1C19D222ECC11006E66BF /* AddMovieVC+TextFieldDelegate.swift */,
 				2684292C222DAB7B00F7A1C0 /* AddMovieVC + PresenterDelegate.swift */,
 				26F1C190222DD020006E66BF /* AddMovieVC+ImagePickerDelegate.swift */,
 			);
@@ -250,6 +256,14 @@
 				26F1C192222DD883006E66BF /* PlaceHolderTextView.swift */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		26F1C19F222ED8D9006E66BF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				26F1C1A0222ED8FC006E66BF /* UIView+Border.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,6 +342,7 @@
 				26842906222C194B00F7A1C0 /* Constant.swift in Sources */,
 				26842929222DAA4500F7A1C0 /* AddMovieVCRouter.swift in Sources */,
 				268428E2222AE94500F7A1C0 /* MoviesVC.swift in Sources */,
+				26F1C1A1222ED8FC006E66BF /* UIView+Border.swift in Sources */,
 				26842915222D994D00F7A1C0 /* Movie.swift in Sources */,
 				26F1C191222DD020006E66BF /* AddMovieVC+ImagePickerDelegate.swift in Sources */,
 				26F1C193222DD883006E66BF /* PlaceHolderTextView.swift in Sources */,
@@ -344,6 +359,7 @@
 				26842927222DA9F900F7A1C0 /* AddMovieVC.swift in Sources */,
 				2684290A222C21D100F7A1C0 /* MoviesVC+PresenterDelegate.swift in Sources */,
 				2684292B222DAAF400F7A1C0 /* AddMovieVCPresenter.swift in Sources */,
+				26F1C19E222ECC11006E66BF /* AddMovieVC+TextFieldDelegate.swift in Sources */,
 				268428F4222AECC400F7A1C0 /* MovieTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

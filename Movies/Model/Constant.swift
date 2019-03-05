@@ -1,15 +1,15 @@
 //
 //  Constant.swift
-//  IOS Test
+//  Movies
 //
-//  Created by Omara on 26.07.18.
-//  Copyright © 2018 Mahmoud Omara. All rights reserved.
+//  Created by Mahmoud Omara on 3/2/19.
+//  Copyright © 2019 Mahmoud Omara. All rights reserved.
 //
 
 import Foundation
 
 class Constant {
-    static let apiKey = "ceb888b71023afda704f84975d2642b5"
+    static let apiKey = "acea91d2bff1c53e6604e4985b6989e2"
     
     static let baseURL = "https://api.themoviedb.org/3/"
     static let imagesURL = "https://image.tmdb.org/t/p/w500"

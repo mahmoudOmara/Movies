@@ -15,6 +15,7 @@ class MovieTVC: UITableViewCell {
     @IBOutlet weak var overviewL: UILabel!
     @IBOutlet weak var productionYearL: UILabel!
     @IBOutlet weak var rateL: UILabel!
+    @IBOutlet weak var imageLoadingIndicator: UIActivityIndicatorView!
     @IBOutlet weak var loadingV: UIView!
     @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
     
@@ -29,6 +30,7 @@ class MovieTVC: UITableViewCell {
     
     func reset() {
         posterIV.image = nil
+        imageLoadingIndicator.startAnimating()
         loadingV.isHidden = true
     }
     

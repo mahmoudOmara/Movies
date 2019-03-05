@@ -1,5 +1,5 @@
 //
-//  AddMovieVCRouter.swift
+//  ImagePickerButton.swift
 //  Movies
 //
 //  Created by Mahmoud Omara on 3/4/19.
@@ -44,17 +44,12 @@ class ImagePickerButton: UIButton, UIImagePickerControllerDelegate, UINavigation
     
     @objc func btnClick(_ sender: Any) {
         let alert = UIAlertController.init(title: "Choose Image From", message: nil, preferredStyle: UIAlertController.Style.actionSheet)
-        let camera = UIAlertAction.init(title: "Camera", style: UIAlertAction.Style.default) { (UIAlertAction) in
-            self.open(imageSource: .camera)
-            alert.dismiss(animated: true, completion: nil)
-        }
         let gallery = UIAlertAction.init(title: "Gallery", style: UIAlertAction.Style.default) { (UIAlertAction) in
             self.open(imageSource: .photoLibrary)
             alert.dismiss(animated: true, completion: nil)
         }
         let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         
-        alert.addAction(camera)
         alert.addAction(gallery)
         alert.addAction(cancel)
         

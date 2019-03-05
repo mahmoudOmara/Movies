@@ -1,5 +1,5 @@
 //
-//  AddMovieVCRouter.swift
+//  PlaceHolderTextView.swift
 //  Movies
 //
 //  Created by Mahmoud Omara on 3/4/19.
@@ -36,4 +36,5 @@ extension PlaceHolderTextView: UITextViewDelegate {
             textView.text = placeHolder
         }
     }
+    
 }
