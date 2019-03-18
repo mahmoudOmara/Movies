@@ -19,7 +19,6 @@
 		26842904222C188C00F7A1C0 /* MoviesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26842903222C188C00F7A1C0 /* MoviesInteractor.swift */; };
 		26842906222C194B00F7A1C0 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26842905222C194B00F7A1C0 /* Constant.swift */; };
 		26842908222C201C00F7A1C0 /* MoviesVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26842907222C201C00F7A1C0 /* MoviesVCPresenter.swift */; };
-		2684290A222C21D100F7A1C0 /* MoviesVC+PresenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26842909222C21D100F7A1C0 /* MoviesVC+PresenterDelegate.swift */; };
 		2684290C222C27EC00F7A1C0 /* MovieTVC+PresenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2684290B222C27EC00F7A1C0 /* MovieTVC+PresenterDelegate.swift */; };
 		2684290E222C311900F7A1C0 /* MoviesVCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2684290D222C311900F7A1C0 /* MoviesVCRouter.swift */; };
 		26842915222D994D00F7A1C0 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26842914222D994D00F7A1C0 /* Movie.swift */; };
@@ -28,6 +27,7 @@
 		26842929222DAA4500F7A1C0 /* AddMovieVCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26842928222DAA4500F7A1C0 /* AddMovieVCRouter.swift */; };
 		2684292B222DAAF400F7A1C0 /* AddMovieVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2684292A222DAAF400F7A1C0 /* AddMovieVCPresenter.swift */; };
 		2684292D222DAB7B00F7A1C0 /* AddMovieVC + PresenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2684292C222DAB7B00F7A1C0 /* AddMovieVC + PresenterDelegate.swift */; };
+		26EDA8FB223FA09200DA3792 /* MoviesVC+PresenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EDA8FA223FA09200DA3792 /* MoviesVC+PresenterDelegate.swift */; };
 		26F1C18F222DC9EF006E66BF /* ImagePickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F1C18E222DC9EF006E66BF /* ImagePickerButton.swift */; };
 		26F1C191222DD020006E66BF /* AddMovieVC+ImagePickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F1C190222DD020006E66BF /* AddMovieVC+ImagePickerDelegate.swift */; };
 		26F1C193222DD883006E66BF /* PlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F1C192222DD883006E66BF /* PlaceHolderTextView.swift */; };
@@ -51,7 +51,6 @@
 		26842903222C188C00F7A1C0 /* MoviesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesInteractor.swift; sourceTree = "<group>"; };
 		26842905222C194B00F7A1C0 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		26842907222C201C00F7A1C0 /* MoviesVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesVCPresenter.swift; sourceTree = "<group>"; };
-		26842909222C21D100F7A1C0 /* MoviesVC+PresenterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoviesVC+PresenterDelegate.swift"; sourceTree = "<group>"; };
 		2684290B222C27EC00F7A1C0 /* MovieTVC+PresenterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MovieTVC+PresenterDelegate.swift"; sourceTree = "<group>"; };
 		2684290D222C311900F7A1C0 /* MoviesVCRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesVCRouter.swift; sourceTree = "<group>"; };
 		26842914222D994D00F7A1C0 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
@@ -60,6 +59,7 @@
 		26842928222DAA4500F7A1C0 /* AddMovieVCRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMovieVCRouter.swift; sourceTree = "<group>"; };
 		2684292A222DAAF400F7A1C0 /* AddMovieVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMovieVCPresenter.swift; sourceTree = "<group>"; };
 		2684292C222DAB7B00F7A1C0 /* AddMovieVC + PresenterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddMovieVC + PresenterDelegate.swift"; sourceTree = "<group>"; };
+		26EDA8FA223FA09200DA3792 /* MoviesVC+PresenterDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MoviesVC+PresenterDelegate.swift"; sourceTree = "<group>"; };
 		26F1C18E222DC9EF006E66BF /* ImagePickerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerButton.swift; sourceTree = "<group>"; };
 		26F1C190222DD020006E66BF /* AddMovieVC+ImagePickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddMovieVC+ImagePickerDelegate.swift"; sourceTree = "<group>"; };
 		26F1C192222DD883006E66BF /* PlaceHolderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceHolderTextView.swift; sourceTree = "<group>"; };
@@ -207,7 +207,7 @@
 			children = (
 				268428E1222AE94500F7A1C0 /* MoviesVC.swift */,
 				268428FB222AF43E00F7A1C0 /* MoviesVC+TableView.swift */,
-				26842909222C21D100F7A1C0 /* MoviesVC+PresenterDelegate.swift */,
+				26EDA8FA223FA09200DA3792 /* MoviesVC+PresenterDelegate.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -352,12 +352,12 @@
 				2684290E222C311900F7A1C0 /* MoviesVCRouter.swift in Sources */,
 				268428FC222AF43E00F7A1C0 /* MoviesVC+TableView.swift in Sources */,
 				2684290C222C27EC00F7A1C0 /* MovieTVC+PresenterDelegate.swift in Sources */,
+				26EDA8FB223FA09200DA3792 /* MoviesVC+PresenterDelegate.swift in Sources */,
 				268428E0222AE94500F7A1C0 /* AppDelegate.swift in Sources */,
 				2684292D222DAB7B00F7A1C0 /* AddMovieVC + PresenterDelegate.swift in Sources */,
 				26842900222C163400F7A1C0 /* Webservice.swift in Sources */,
 				26842908222C201C00F7A1C0 /* MoviesVCPresenter.swift in Sources */,
 				26842927222DA9F900F7A1C0 /* AddMovieVC.swift in Sources */,
-				2684290A222C21D100F7A1C0 /* MoviesVC+PresenterDelegate.swift in Sources */,
 				2684292B222DAAF400F7A1C0 /* AddMovieVCPresenter.swift in Sources */,
 				26F1C19E222ECC11006E66BF /* AddMovieVC+TextFieldDelegate.swift in Sources */,
 				268428F4222AECC400F7A1C0 /* MovieTVC.swift in Sources */,
